@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import math
 
-data = pd.read_csv("census-income.csv") #a6-project-ilovedavinnguyen-sglasses/
+data = pd.read_csv("a6-project-ilovedavinnguyen-sglasses/census-income.csv") #a6-project-ilovedavinnguyen-sglasses/
 x = data["age"].values #AAGE
 y = data["total person income"].values #PTOTVAL
 
